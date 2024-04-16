@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PokeInfo</string>
+    <string-array name="perfiles">
+        <item>Administrador</item>
+        <item>Usuario</item>
+        <item>Invitado</item>
+    </string-array>
+
+    <string-array name="tipos_pokemon">
+        <item>bug</item>
+        <item>dark</item>
+        <item>dragon</item>
+        <item>electric</item>
+        <item>fairy</item>
+        <item>fighting</item>
+        <item>fire</item>
+        <item>flying</item>
+        <item>ghost</item>
+        <item>grass</item>
+        <item>ground</item>
+        <item>ice</item>
+        <item>normal</item>
+        <item>poison</item>
+        <item>psychic</item>
+        <item>rock</item>
+        <item>steel</item>
+        <item>water</item>
+    </string-array>
+</resources>

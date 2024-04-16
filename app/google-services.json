@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475559489164",
+    "project_id": "ldg-utad2324",
+    "storage_bucket": "ldg-utad2324.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475559489164:android:806991a6051ef9b708d5a9",
+        "android_client_info": {
+          "package_name": "com.example.pokeinfo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVhencpBpsE8tKFUtT_72py-ctx_dqqAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

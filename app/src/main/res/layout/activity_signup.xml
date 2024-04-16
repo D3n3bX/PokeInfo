@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SignupActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="180dp"
+        android:paddingRight="180dp"
+        android:text=""
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="250dp"
+        android:scaleType="center"
+        android:src="@drawable/inicio"
+        app:layout_constraintBottom_toTopOf="@+id/editName"
+        app:layout_constraintEnd_toEndOf="@+id/textRegister"
+        app:layout_constraintStart_toStartOf="@+id/textRegister"
+        app:layout_constraintTop_toBottomOf="@+id/textRegister"
+        />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce nombre"
+        android:inputType="text"
+        android:drawableLeft="@drawable/perfil"
+        app:layout_constraintEnd_toEndOf="@+id/textRegister"
+        app:layout_constraintStart_toStartOf="@+id/textRegister"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_marginTop="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce correo"
+        android:inputType="text"
+        android:drawableLeft="@drawable/correo"
+        app:layout_constraintEnd_toEndOf="@+id/textRegister"
+        app:layout_constraintStart_toStartOf="@+id/textRegister"
+        app:layout_constraintTop_toBottomOf="@+id/editName"
+        />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_marginTop="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Introduce contraseña"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"
+        app:layout_constraintEnd_toEndOf="@+id/textRegister"
+        app:layout_constraintStart_toStartOf="@+id/textRegister"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail"
+        />
+
+    <EditText
+        android:id="@+id/editConfirmPassword"
+        android:layout_marginTop="12dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirma contraseña"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"
+        app:layout_constraintEnd_toEndOf="@+id/textRegister"
+        app:layout_constraintStart_toStartOf="@+id/textRegister"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword"
+        />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editConfirmPassword" />
+</androidx.constraintlayout.widget.ConstraintLayout>
